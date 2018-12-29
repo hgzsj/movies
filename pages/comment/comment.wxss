@@ -1,0 +1,87 @@
+/**comment.wxss**/
+
+.comment {
+  padding: 20rpx;
+  background: #fff;
+}
+
+.comment-list {
+  font-size:26rpx;
+  line-height:1.8;
+}
+
+.comment-list .item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flex-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 20rpx;
+  padding-bottom: 14rpx;
+}
+
+.comment-list .item::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  content: '';
+  background: #ccc;
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+}
+
+.comment-list .item .item-thumb {
+  width: 80rpx;
+  margin-right: 20rpx;
+}
+
+.comment-list .item .item-thumb image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.comment-list .item .username {
+  color: #ea6f5a;
+}
+
+.comment-list .item .content {
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  font-size: 30rpx;
+  line-height: 1.8;
+  white-space:normal;
+}
+
+.comment-list .item .date {
+  color: #888;
+}
+
+.scroll-loading {
+  padding-top: 20rpx;
+  -webkit-transform: scale(.6);
+  transform: scale(.6);
+}
+
+.scroll-loading .loading-icon {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loading-tips {
+  color: #888;
+  font-size: 30rpx;
+  line-height: 3;
+  text-align: center;
+}
+
+
+
+
+
+
+
